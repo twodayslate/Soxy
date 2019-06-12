@@ -10,11 +10,11 @@ import Foundation
 import CocoaAsyncSocket
 import NetworkExtension
 
-open class Server: GCDAsyncSocketDelegate, ConnectionDelegate, Proxyable {
+open class Server: NSObject, GCDAsyncSocketDelegate, ConnectionDelegate, Proxyable {
     
     fileprivate let socket: GCDAsyncSocket
     fileprivate var connections = Set<Connection>()
-    internal var proxyServer: NEProxyServer?
+    public var proxyServer: NEProxyServer?
     
     open var host: String! {
         get {
@@ -28,8 +28,9 @@ open class Server: GCDAsyncSocketDelegate, ConnectionDelegate, Proxyable {
         }
     }
     
-    init(port: UInt16) throws {
+    public init(port: UInt16) throws {
         socket = GCDAsyncSocket(delegate: nil, delegateQueue: DispatchQueue.global(qos: .utility))
+        super.init()
         socket.delegate = self
         try socket.accept(onPort: port)
     }
@@ -57,3 +58,5 @@ open class Server: GCDAsyncSocketDelegate, ConnectionDelegate, Proxyable {
         connections.remove(connection)
     }
 }
+
+

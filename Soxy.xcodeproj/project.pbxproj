@@ -7,25 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B32200A01BBCAB23009829BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322009F1BBCAB23009829BD /* AppDelegate.swift */; };
-		B32200A21BBCAB23009829BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32200A11BBCAB23009829BD /* Assets.xcassets */; };
-		B32200A51BBCAB23009829BD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B32200A31BBCAB23009829BD /* MainMenu.xib */; };
-		B32200AF1BBCAF06009829BD /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32200AE1BBCAF06009829BD /* CocoaAsyncSocket.framework */; };
-		B32200B01BBCAF06009829BD /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B32200AE1BBCAF06009829BD /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B32200B31BBCAFA1009829BD /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32200B21BBCAFA1009829BD /* Connection.swift */; };
-		B32B81E21D63D72A00076C52 /* GCDAsyncSocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32B81E11D63D72A00076C52 /* GCDAsyncSocketExtensions.swift */; };
-		B33C53C71BBFBC3600231FCE /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33C53C61BBFBC3600231FCE /* Server.swift */; };
-		B33C53CA1BBFBE1300231FCE /* Soxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33C53C91BBFBE1300231FCE /* Soxy.swift */; };
+		975748430ADB559F1AA7B294 /* Pods_Soxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24292743C19C7BD004EC6D0B /* Pods_Soxy.framework */; };
+		AC2152CB22B1373A006E8DF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2152C922B1373A006E8DF2 /* Main.storyboard */; };
+		AC2152ED22B1373F006E8DF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322009F1BBCAB23009829BD /* AppDelegate.swift */; };
+		AC2152EE22B13742006E8DF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32200A11BBCAB23009829BD /* Assets.xcassets */; };
+		AC21531922B142F3006E8DF2 /* Soxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC21531022B142F3006E8DF2 /* Soxy.framework */; };
+		AC21532022B142F3006E8DF2 /* Soxy1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21531F22B142F3006E8DF2 /* Soxy1Tests.swift */; };
+		AC21532522B142F3006E8DF2 /* Soxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC21531022B142F3006E8DF2 /* Soxy.framework */; };
+		AC21532622B142F3006E8DF2 /* Soxy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AC21531022B142F3006E8DF2 /* Soxy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AC21532E22B14306006E8DF2 /* Soxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33C53C91BBFBE1300231FCE /* Soxy.swift */; };
+		AC21532F22B1430A006E8DF2 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33C53C61BBFBC3600231FCE /* Server.swift */; };
+		AC21533022B1430D006E8DF2 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32200B21BBCAFA1009829BD /* Connection.swift */; };
+		AC21533122B1430F006E8DF2 /* GCDAsyncSocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32B81E11D63D72A00076C52 /* GCDAsyncSocketExtensions.swift */; };
+		B335CB5544943C1ECE885A71 /* Pods_SoxyExampleMacOs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2D73D4B648DFCEE801A057 /* Pods_SoxyExampleMacOs.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AC21531A22B142F3006E8DF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B32200941BBCAB23009829BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC21530F22B142F3006E8DF2;
+			remoteInfo = Soxy1;
+		};
+		AC21531C22B142F3006E8DF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B32200941BBCAB23009829BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC2152C022B13736006E8DF2;
+			remoteInfo = SoxyExampleMacOs;
+		};
+		AC21532322B142F3006E8DF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B32200941BBCAB23009829BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC21530F22B142F3006E8DF2;
+			remoteInfo = Soxy1;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
-		B32200B11BBCAF06009829BD /* Embed Frameworks */ = {
+		AC21532A22B142F3006E8DF2 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B32200B01BBCAF06009829BD /* CocoaAsyncSocket.framework in Embed Frameworks */,
+				AC21532622B142F3006E8DF2 /* Soxy.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,43 +61,110 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B322009C1BBCAB23009829BD /* Soxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B2D73D4B648DFCEE801A057 /* Pods_SoxyExampleMacOs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoxyExampleMacOs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24292743C19C7BD004EC6D0B /* Pods_Soxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F7C18F086E45EAB8D5161B /* Pods-SoxyExampleMacOs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoxyExampleMacOs.release.xcconfig"; path = "Target Support Files/Pods-SoxyExampleMacOs/Pods-SoxyExampleMacOs.release.xcconfig"; sourceTree = "<group>"; };
+		8FB09830B9DCDE8DB9E4CA00 /* Pods-Soxy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soxy.release.xcconfig"; path = "Target Support Files/Pods-Soxy/Pods-Soxy.release.xcconfig"; sourceTree = "<group>"; };
+		93C6557D799AA793C92D4F5A /* Pods-Soxy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soxy.debug.xcconfig"; path = "Target Support Files/Pods-Soxy/Pods-Soxy.debug.xcconfig"; sourceTree = "<group>"; };
+		AC2152C122B13736006E8DF2 /* SoxyExampleMacOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoxyExampleMacOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2152CA22B1373A006E8DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC2152CD22B1373A006E8DF2 /* example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = example.entitlements; sourceTree = "<group>"; };
+		AC21531022B142F3006E8DF2 /* Soxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Soxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC21531322B142F3006E8DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Soxy1/Info.plist; sourceTree = SOURCE_ROOT; };
+		AC21531822B142F3006E8DF2 /* SoxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC21531F22B142F3006E8DF2 /* Soxy1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soxy1Tests.swift; sourceTree = "<group>"; };
+		AC21532122B142F3006E8DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B322009F1BBCAB23009829BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B32200A11BBCAB23009829BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B32200A41BBCAB23009829BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B32200A61BBCAB23009829BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B32200AE1BBCAF06009829BD /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/Mac/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
 		B32200B21BBCAFA1009829BD /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 		B32B81E11D63D72A00076C52 /* GCDAsyncSocketExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDAsyncSocketExtensions.swift; sourceTree = "<group>"; };
 		B33C53C61BBFBC3600231FCE /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
 		B33C53C91BBFBE1300231FCE /* Soxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soxy.swift; sourceTree = "<group>"; };
+		D40822025CADBF53E9F43791 /* Pods-SoxyExampleMacOs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoxyExampleMacOs.debug.xcconfig"; path = "Target Support Files/Pods-SoxyExampleMacOs/Pods-SoxyExampleMacOs.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B32200991BBCAB23009829BD /* Frameworks */ = {
+		AC2152BE22B13736006E8DF2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B32200AF1BBCAF06009829BD /* CocoaAsyncSocket.framework in Frameworks */,
+				B335CB5544943C1ECE885A71 /* Pods_SoxyExampleMacOs.framework in Frameworks */,
+				AC21532522B142F3006E8DF2 /* Soxy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC21530D22B142F3006E8DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975748430ADB559F1AA7B294 /* Pods_Soxy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC21531522B142F3006E8DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC21531922B142F3006E8DF2 /* Soxy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20B9B6B60C5F3E789D88A06B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93C6557D799AA793C92D4F5A /* Pods-Soxy.debug.xcconfig */,
+				8FB09830B9DCDE8DB9E4CA00 /* Pods-Soxy.release.xcconfig */,
+				D40822025CADBF53E9F43791 /* Pods-SoxyExampleMacOs.debug.xcconfig */,
+				53F7C18F086E45EAB8D5161B /* Pods-SoxyExampleMacOs.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC2152BC22B136D8006E8DF2 /* SoxyExampleMacOs */ = {
+			isa = PBXGroup;
+			children = (
+				B322009F1BBCAB23009829BD /* AppDelegate.swift */,
+				B32200A11BBCAB23009829BD /* Assets.xcassets */,
+				AC2152C922B1373A006E8DF2 /* Main.storyboard */,
+				AC2152CD22B1373A006E8DF2 /* example.entitlements */,
+				B32200A61BBCAB23009829BD /* Info.plist */,
+			);
+			path = SoxyExampleMacOs;
+			sourceTree = "<group>";
+		};
+		AC21531E22B142F3006E8DF2 /* SoxyTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC21531F22B142F3006E8DF2 /* Soxy1Tests.swift */,
+				AC21532122B142F3006E8DF2 /* Info.plist */,
+			);
+			path = SoxyTests;
+			sourceTree = "<group>";
+		};
 		B32200931BBCAB23009829BD = {
 			isa = PBXGroup;
 			children = (
+				AC2152BC22B136D8006E8DF2 /* SoxyExampleMacOs */,
 				B32200AE1BBCAF06009829BD /* CocoaAsyncSocket.framework */,
 				B322009E1BBCAB23009829BD /* Soxy */,
+				AC21531E22B142F3006E8DF2 /* SoxyTests */,
 				B322009D1BBCAB23009829BD /* Products */,
+				20B9B6B60C5F3E789D88A06B /* Pods */,
+				EF5795779882C007BE93527D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		B322009D1BBCAB23009829BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B322009C1BBCAB23009829BD /* Soxy.app */,
+				AC2152C122B13736006E8DF2 /* SoxyExampleMacOs.app */,
+				AC21531022B142F3006E8DF2 /* Soxy.framework */,
+				AC21531822B142F3006E8DF2 /* SoxyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,38 +172,94 @@
 		B322009E1BBCAB23009829BD /* Soxy */ = {
 			isa = PBXGroup;
 			children = (
-				B322009F1BBCAB23009829BD /* AppDelegate.swift */,
-				B32200A11BBCAB23009829BD /* Assets.xcassets */,
-				B32200A31BBCAB23009829BD /* MainMenu.xib */,
-				B32200A61BBCAB23009829BD /* Info.plist */,
 				B33C53C91BBFBE1300231FCE /* Soxy.swift */,
 				B33C53C61BBFBC3600231FCE /* Server.swift */,
 				B32200B21BBCAFA1009829BD /* Connection.swift */,
 				B32B81E11D63D72A00076C52 /* GCDAsyncSocketExtensions.swift */,
+				AC21531322B142F3006E8DF2 /* Info.plist */,
 			);
 			path = Soxy;
 			sourceTree = "<group>";
 		};
+		EF5795779882C007BE93527D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24292743C19C7BD004EC6D0B /* Pods_Soxy.framework */,
+				1B2D73D4B648DFCEE801A057 /* Pods_SoxyExampleMacOs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		AC21530B22B142F3006E8DF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		B322009B1BBCAB23009829BD /* Soxy */ = {
+		AC2152C022B13736006E8DF2 /* SoxyExampleMacOs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B32200A91BBCAB23009829BD /* Build configuration list for PBXNativeTarget "Soxy" */;
+			buildConfigurationList = AC2152E422B1373B006E8DF2 /* Build configuration list for PBXNativeTarget "SoxyExampleMacOs" */;
 			buildPhases = (
-				B32200981BBCAB23009829BD /* Sources */,
-				B32200991BBCAB23009829BD /* Frameworks */,
-				B322009A1BBCAB23009829BD /* Resources */,
-				B32200B11BBCAF06009829BD /* Embed Frameworks */,
+				4E89DFF1304838E3811A374B /* [CP] Check Pods Manifest.lock */,
+				AC2152BD22B13736006E8DF2 /* Sources */,
+				AC2152BE22B13736006E8DF2 /* Frameworks */,
+				AC2152BF22B13736006E8DF2 /* Resources */,
+				AC21532A22B142F3006E8DF2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC21532422B142F3006E8DF2 /* PBXTargetDependency */,
+			);
+			name = SoxyExampleMacOs;
+			productName = example;
+			productReference = AC2152C122B13736006E8DF2 /* SoxyExampleMacOs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC21530F22B142F3006E8DF2 /* Soxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC21532722B142F3006E8DF2 /* Build configuration list for PBXNativeTarget "Soxy" */;
+			buildPhases = (
+				2C774A198EF72F3BAF335D20 /* [CP] Check Pods Manifest.lock */,
+				AC21530B22B142F3006E8DF2 /* Headers */,
+				AC21530C22B142F3006E8DF2 /* Sources */,
+				AC21530D22B142F3006E8DF2 /* Frameworks */,
+				AC21530E22B142F3006E8DF2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Soxy;
-			productName = Soxy;
-			productReference = B322009C1BBCAB23009829BD /* Soxy.app */;
-			productType = "com.apple.product-type.application";
+			productName = Soxy1;
+			productReference = AC21531022B142F3006E8DF2 /* Soxy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC21531722B142F3006E8DF2 /* SoxyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC21532B22B142F3006E8DF2 /* Build configuration list for PBXNativeTarget "SoxyTests" */;
+			buildPhases = (
+				AC21531422B142F3006E8DF2 /* Sources */,
+				AC21531522B142F3006E8DF2 /* Frameworks */,
+				AC21531622B142F3006E8DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC21531B22B142F3006E8DF2 /* PBXTargetDependency */,
+				AC21531D22B142F3006E8DF2 /* PBXTargetDependency */,
+			);
+			name = SoxyTests;
+			productName = Soxy1Tests;
+			productReference = AC21531822B142F3006E8DF2 /* SoxyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -116,12 +267,22 @@
 		B32200941BBCAB23009829BD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Pop Tap";
 				TargetAttributes = {
-					B322009B1BBCAB23009829BD = {
-						CreatedOnToolsVersion = 7.0;
-						LastSwiftMigration = 0800;
+					AC2152C022B13736006E8DF2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					AC21530F22B142F3006E8DF2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					AC21531722B142F3006E8DF2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC2152C022B13736006E8DF2;
 					};
 				};
 			};
@@ -130,6 +291,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -138,66 +300,361 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B322009B1BBCAB23009829BD /* Soxy */,
+				AC2152C022B13736006E8DF2 /* SoxyExampleMacOs */,
+				AC21530F22B142F3006E8DF2 /* Soxy */,
+				AC21531722B142F3006E8DF2 /* SoxyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B322009A1BBCAB23009829BD /* Resources */ = {
+		AC2152BF22B13736006E8DF2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B32200A21BBCAB23009829BD /* Assets.xcassets in Resources */,
-				B32200A51BBCAB23009829BD /* MainMenu.xib in Resources */,
+				AC2152EE22B13742006E8DF2 /* Assets.xcassets in Resources */,
+				AC2152CB22B1373A006E8DF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC21530E22B142F3006E8DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC21531622B142F3006E8DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C774A198EF72F3BAF335D20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Soxy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E89DFF1304838E3811A374B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoxyExampleMacOs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		B32200981BBCAB23009829BD /* Sources */ = {
+		AC2152BD22B13736006E8DF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B32B81E21D63D72A00076C52 /* GCDAsyncSocketExtensions.swift in Sources */,
-				B32200B31BBCAFA1009829BD /* Connection.swift in Sources */,
-				B33C53CA1BBFBE1300231FCE /* Soxy.swift in Sources */,
-				B33C53C71BBFBC3600231FCE /* Server.swift in Sources */,
-				B32200A01BBCAB23009829BD /* AppDelegate.swift in Sources */,
+				AC2152ED22B1373F006E8DF2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC21530C22B142F3006E8DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC21532F22B1430A006E8DF2 /* Server.swift in Sources */,
+				AC21533022B1430D006E8DF2 /* Connection.swift in Sources */,
+				AC21533122B1430F006E8DF2 /* GCDAsyncSocketExtensions.swift in Sources */,
+				AC21532E22B14306006E8DF2 /* Soxy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC21531422B142F3006E8DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC21532022B142F3006E8DF2 /* Soxy1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		AC21531B22B142F3006E8DF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC21530F22B142F3006E8DF2 /* Soxy */;
+			targetProxy = AC21531A22B142F3006E8DF2 /* PBXContainerItemProxy */;
+		};
+		AC21531D22B142F3006E8DF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC2152C022B13736006E8DF2 /* SoxyExampleMacOs */;
+			targetProxy = AC21531C22B142F3006E8DF2 /* PBXContainerItemProxy */;
+		};
+		AC21532422B142F3006E8DF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC21530F22B142F3006E8DF2 /* Soxy */;
+			targetProxy = AC21532322B142F3006E8DF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		B32200A31BBCAB23009829BD /* MainMenu.xib */ = {
+		AC2152C922B1373A006E8DF2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B32200A41BBCAB23009829BD /* Base */,
+				AC2152CA22B1373A006E8DF2 /* Base */,
 			);
-			name = MainMenu.xib;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AC2152E522B1373B006E8DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D40822025CADBF53E9F43791 /* Pods-SoxyExampleMacOs.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = SoxyExampleMacOs/example.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SoxyExampleMacOs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pop-tap.Soxy.example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AC2152E622B1373B006E8DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53F7C18F086E45EAB8D5161B /* Pods-SoxyExampleMacOs.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = SoxyExampleMacOs/example.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SoxyExampleMacOs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pop-tap.Soxy.example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AC21532822B142F3006E8DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93C6557D799AA793C92D4F5A /* Pods-Soxy.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "$(SRCROOT)/Soxy1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pop-tap.Soxy";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC21532922B142F3006E8DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FB09830B9DCDE8DB9E4CA00 /* Pods-Soxy.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "$(SRCROOT)/Soxy1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pop-tap.Soxy";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC21532C22B142F3006E8DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SoxyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pop-tap.Soxy1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoxyExampleMacOs.app/Contents/MacOS/SoxyExampleMacOs";
+			};
+			name = Debug;
+		};
+		AC21532D22B142F3006E8DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SoxyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pop-tap.Soxy1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoxyExampleMacOs.app/Contents/MacOS/SoxyExampleMacOs";
+			};
+			name = Release;
+		};
 		B32200A71BBCAB23009829BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -225,6 +682,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -232,18 +690,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -264,60 +731,45 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-			};
-			name = Release;
-		};
-		B32200AA1BBCAB23009829BD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				INFOPLIST_FILE = Soxy/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pop-tap.Soxy";
-				PRODUCT_NAME = Soxy;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		B32200AB1BBCAB23009829BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
-				INFOPLIST_FILE = Soxy/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pop-tap.Soxy";
-				PRODUCT_NAME = Soxy;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AC2152E422B1373B006E8DF2 /* Build configuration list for PBXNativeTarget "SoxyExampleMacOs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2152E522B1373B006E8DF2 /* Debug */,
+				AC2152E622B1373B006E8DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC21532722B142F3006E8DF2 /* Build configuration list for PBXNativeTarget "Soxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC21532822B142F3006E8DF2 /* Debug */,
+				AC21532922B142F3006E8DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC21532B22B142F3006E8DF2 /* Build configuration list for PBXNativeTarget "SoxyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC21532C22B142F3006E8DF2 /* Debug */,
+				AC21532D22B142F3006E8DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B32200971BBCAB23009829BD /* Build configuration list for PBXProject "Soxy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B32200A71BBCAB23009829BD /* Debug */,
 				B32200A81BBCAB23009829BD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B32200A91BBCAB23009829BD /* Build configuration list for PBXNativeTarget "Soxy" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B32200AA1BBCAB23009829BD /* Debug */,
-				B32200AB1BBCAB23009829BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

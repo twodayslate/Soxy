@@ -8,6 +8,7 @@
 
 import Cocoa
 import NetworkExtension
+import Soxy
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -19,7 +20,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     override init() {
         server = try! Server(port: 8080)
         server.proxyServer = NEProxyServer(address: "127.0.0.1", port: 1080)
-        print(server.host, server.port)
+        print(server.host.description, server.port.description)
         super.init()
     }
 

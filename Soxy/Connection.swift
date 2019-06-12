@@ -18,7 +18,7 @@ protocol ConnectionDelegate {
 
 // MARK: -
 
-open class Connection: GCDAsyncSocketDelegate, Hashable {
+open class Connection: NSObject, GCDAsyncSocketDelegate {
     
     static let replyTag = 100
     
@@ -80,7 +80,7 @@ open class Connection: GCDAsyncSocketDelegate, Hashable {
                 bytes.append(numberOfAuthenticationMethods)
                 bytes.append(contentsOf: authenticationMethods.map() { $0.rawValue })
                 
-                let data = Data(bytes: bytes)
+                let data = Data(bytes)
                 return data
             }
         }
@@ -107,7 +107,7 @@ open class Connection: GCDAsyncSocketDelegate, Hashable {
         var data: Data? {
             get {
                 let bytes = [Soxy.SOCKS.version, method.rawValue]
-                return Data(bytes: bytes)
+                return Data(bytes)
             }
         }
     }
@@ -197,7 +197,7 @@ open class Connection: GCDAsyncSocketDelegate, Hashable {
                 
                 switch addressType {
                 case .domainName:
-                    bytes.append(UInt8(targetHost.characters.count))
+                    bytes.append(UInt8(targetHost.count))
                     bytes.append(contentsOf: [UInt8](targetHost.utf8))
                     break
                 default:
@@ -207,7 +207,7 @@ open class Connection: GCDAsyncSocketDelegate, Hashable {
                 let bindPort = targetPort.littleEndian.byteSwapped
                 bytes.append(contentsOf: bindPort.toByteArray())
                 
-                return Data(bytes: bytes)
+                return Data(bytes)
             }
         }
     }
@@ -289,14 +289,14 @@ open class Connection: GCDAsyncSocketDelegate, Hashable {
                 // If reply field is anything other than Succeed, just reply with
                 // VER, REP, RSV
                 guard field == .succeed else {
-                    return Data(bytes: bytes)
+                    return Data(bytes)
                 }
                 
                 bytes.append(addressType.rawValue)
                 
                 switch addressType {
                 case .domainName:
-                    bytes.append(UInt8(address.characters.count))
+                    bytes.append(UInt8(address.count))
                     bytes.append(contentsOf: [UInt8](address.utf8))
                     break
                 default:
@@ -332,7 +332,7 @@ open class Connection: GCDAsyncSocketDelegate, Hashable {
     fileprivate var request: Request?
     fileprivate var proxySocket: GCDAsyncSocket?
     
-    open var hashValue: Int {
+    override open var hash: Int {
         get {
             return ObjectIdentifier(self).hashValue
         }
@@ -345,6 +345,7 @@ open class Connection: GCDAsyncSocketDelegate, Hashable {
     init(socket: GCDAsyncSocket) {
         clientSocket = socket
         delegateQueue = DispatchQueue(label: "net.luosheng.SOCKSConnection.DelegateQueue", attributes: [])
+        super.init()
         clientSocket.setDelegate(self, delegateQueue: delegateQueue)
         clientSocket.readData(Phase.methodSelection)
     }
